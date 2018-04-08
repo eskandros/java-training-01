@@ -15,9 +15,8 @@ public class JavaTraining01Application {
 	}
 	
 	
-	
-	@RequestMapping(value="/get", method=RequestMethod.GET)
-	public String get() {
-		return "Resturn from the Spring Microservice project ...";
+	@RequestMapping(value="/hello", method=RequestMethod.GET)
+	public String hello() {
+		return "Hello from the Spring Microservice project ...";
 	}
 }
